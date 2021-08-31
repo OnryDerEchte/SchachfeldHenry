@@ -5,6 +5,9 @@
     background-color: aqua;
     width: 640px;
     height: 640px;
+    border: solid black 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .blackSquare{
@@ -35,4 +38,37 @@
     width: 80px;
     height: 80px;
     border-right: solid 80px black;
+}
+
+#numbers{
+    margin-top: 45px;
+}
+
+#letters{
+    margin-left: 65px;
+    display: flex;
+}
+
+#underLetters{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+p1{
+    font-size: x-large;
+    font-weight: bold;
+    display: grid;
+    margin-bottom: 54px;
+}
+
+p2{
+    font-size: x-large;
+    font-weight: bold;
+    display: grid;
+    margin-right: 63px;
 }
