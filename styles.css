@@ -1,17 +1,38 @@
 #field{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: aqua;
-    width: 800px;
-    height: 800px;
+    width: 640px;
+    height: 640px;
 }
 
 .blackSquare{
     background-color: black;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    border-left: solid 80px white;
+    border-right: solid 80px white;
 }
 
 .whiteSquare{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    border-left: solid 80px black;
+    border-right: solid 80px black;
+}
+
+.blackSquare2{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-right: solid 80px white;
+}
+
+.whiteSquare2{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-right: solid 80px black;
 }
